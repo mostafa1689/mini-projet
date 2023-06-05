@@ -1,0 +1,32 @@
+.anim-translateY,
+.anim-translateX,
+.anim-scale {
+    transition: transform .5s;
+}
+.anim-translateY:hover {
+    transform: translateY(-10px)
+}
+.anim-translateX:hover {
+    transform: translateX(10px)
+}
+.anim-scale:hover {
+    transform: scale(.95)
+}
+
+
+@keyframes anim-banner-1 {
+    0% {left:-30%}
+    100% {left:50%}    
+}
+
+@keyframes anim-banner-2 {
+    0% {top:-20%}
+    100% {top:20%}    
+}
+
+@keyframes anim-figcaption {
+    0% {bottom: -60px;}
+    100% {bottom: 3px;}
+}
+  
+
